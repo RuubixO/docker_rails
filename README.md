@@ -1,16 +1,30 @@
-# docker_rails
+# README
+
+Docker-Rails tutorial app
+
 Merging these two tutorials into a template for a basic Rails-on-Docker setup:
 
-Docker's official tutorial for a docker-compose Rails setup
-https://docs.docker.com/compose/rails/
+Docker's official tutorial for a docker-compose Rails setup https://docs.docker.com/compose/rails/
 
-From the Author of "Learn Enough to Be Dangerous"
-https://www.railstutorial.org/book
+From the Author of "Learn Enough to Be Dangerous" https://www.railstutorial.org/book
 
-Run project with:
-docker-compose run web rails new . --force --no-deps --database=postgresql
+(Leaving Rails-generated notes for myself.)
+Things you may want to cover:
 
-Changelog (this will move to a new file later: https://keepachangelog.com/en/1.0.0/)
-5/17/19
-- Init and create config files for Dockerized Rails app.
-- Set up bash script entrypoint.sh in local machine's /usr/bin/
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
