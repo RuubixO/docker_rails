@@ -1,0 +1,15 @@
+current directory: /myapp/vendor/cache/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+/usr/local/bin/ruby -I /usr/local/lib/ruby/2.6.0 -r ./siteconf20190522-1-aweixm.rb extconf.rb
+creating Makefile
+
+current directory: /myapp/vendor/cache/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /myapp/vendor/cache/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/cruby.so
+
+current directory: /myapp/vendor/cache/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20190522-1-1u3pp5a/skiptrace
